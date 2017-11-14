@@ -1,0 +1,292 @@
+{
+  "L0": {
+    "prefix": "living_in_household",
+    "columns": [
+      "spouse",
+      "children",
+      "adult_children",
+      "parents",
+      "extended_family",
+      "roommates",
+      "other"
+    ]
+  },
+  "D1": {
+    "prefix": "employment_status",
+    "columns": [
+      "employee",
+      "self_employed",
+      "laid_off",
+      "unemployed_looking_for_job",
+      "unemployed_not_looking_for_job",
+      "homemaker",
+      "student",
+      "disabled",
+      "retired"
+    ]
+  },
+  "BK2": {
+    "prefix": "cash_services",
+    "columns": [
+      "money_order",
+      "check_cashing",
+      "tax_refund_anticipation_loan",
+      "sdsc_loan",
+      "sent_money_to_relatives"
+    ]
+  }, 
+  "I0": {
+    "prefix": "income_source",
+    "columns": [
+      "wages",
+      "self_employed",
+      "freelance",
+      "interest",
+      "social_security",
+      "ssi",
+      "unemployment",
+      "pension",
+      "other"
+    ]
+  },
+  "I3": {
+    "prefix": "covered_expenses",
+    "columns": [
+      "out_of_savings",
+      "with_debt",
+      "relying_on_family",
+      "other"
+    ]
+  },
+  "I10": {
+    "prefix": "volatility_reason",
+    "columns": [
+      "bonus",
+      "commisions",
+      "seasonal_employment",
+      "irregular_work_schedule",
+      "periods_of_unemployment",
+      "investment_income",
+      "other"
+    ]
+  },
+  "EF3": {
+    "prefix": "emergency_expense_source",
+    "columns": [
+      "credit_card_in_full",
+      "credit_card_over_time",
+      "existing_savings",
+      "bank_loan",
+      "borrow_from_friend",
+      "payday_loan_or_overdraft",
+      "selling_possession",
+      "not_able_to_pay",
+      "other"
+    ]
+  },
+  "A0A": {
+    "prefix": "credit_application",
+    "columns": [
+      "mortgage",
+      "refinance",
+      "home_equity",
+      "credit_card",
+      "auto_loan",
+      "student_loan",
+      "personal_loan_bank",
+      "personal_loan_friend",
+      "other"
+    ]
+  },
+  "A3": {
+    "prefix": "credit_denied",
+    "columns": [
+      "mortgage",
+      "refinance",
+      "home_equity",
+      "credit_card",
+      "auto_loan",
+      "student_loan",
+      "personal_loan_bank",
+      "personal_loan_friend",
+      "other"
+    ]
+  },
+  "X2": {
+    "prefix": "stressors",
+    "columns": [
+      "lost_job",
+      "reduced_hours",
+      "spouse_lost_job",
+      "spouse_reduced_hours",
+      "told_to_move_out",
+      "foreclosed_or_evicted",
+      "business_difficulty",
+      "health_problem",
+      "family_member_health_problem",
+      "divorced",
+      "primary_breadwinner_death"
+    ]
+  },
+  "B2": {
+    "name": "financial_comfort",
+    "values": {
+      "Finding it difficult to get by": 1, 
+      "Just getting by": 2, 
+      "Doing okay": 3, 
+      "Living comfortably": 4,
+      "Refused": null
+    }
+  },
+  "B3": {
+    "name": "financial_comfort_relative_to_last_year",
+    "values": {
+      "Much worse off": 1, 
+      "Somewhat worse off": 2, 
+      "About the same": 3, 
+      "Somewhat better off": 4, 
+      "Much better off": 5,
+      "Refused": null
+    }
+  },
+  "R3": {
+    "name": "rent_payment",
+    "values": "numeric"
+  },
+  "M4": {
+    "name": "mortgage_payment",
+    "values": "numeric"
+  },
+  "M2": {
+    "name": "missed_mortgage_payment",
+    "values": "yes_no"
+  },
+  "BK1": {
+    "name": "has_bank_account",
+    "values": "yes_no"
+  },
+  "A0": {
+    "name": "applied_for_credit",
+    "values": "yes_no"
+  },
+  "A6": {
+    "name": "credit_card_application_confidence",
+    "values": {
+      "Not confident": 1,
+      "Somewhat confident": 2,
+      "Very confident": 3,   
+      "Don't know": null,
+      "Refused": null
+    }
+  },
+  "C1": {
+    "name": "credit_score_self_estimate",
+    "values": {
+      "Poor": 1,
+      "Fair": 2,
+      "Good": 3,
+      "Very good": 4,
+      "Excellent": 5,
+      "Don't know my score or how to rate it": null,
+      "Refused": null
+    }
+  },
+  "C2A": {
+    "name": "has_credit_card",
+    "values": "yes_no"
+  },
+  "C3": {
+    "name": "has_credit_card_debt",
+    "values": "yes_no"
+  },
+  "C3A": {
+    "name": "has_less_credit_card_debt_than_year_ago",
+    "values": {
+      "More debt now": false,
+      "Less debt now": true,
+      "About the same": false,
+      "Refused": null
+    }
+  },
+  "C3B": {
+    "name": "recently_paid_off_credit_card_debt",
+    "values": "yes_no"
+  },
+  "C4A": {
+    "name": "credit_card_unpaid_balance_frequency",
+    "values": {
+      "Never carried an unpaid balance (always pay in full)": 0, 
+      "Once": 1,
+      "Some of the time": 2, 
+      "Most or all of the time": 3,      
+      "Refused": null 
+    }
+  },
+  "C4B": {
+    "name": "credit_card_minimum_payment_frequency",
+    "values": {
+      "Never carried an unpaid balance (always pay in full)": 0, 
+      "Once": 1, 
+      "Some of the time": 2, 
+      "Most or all of the time": 3,      
+      "Refused": null
+    }
+  },
+  "ED0": {
+    "name": "education_level",
+    "values": {
+      "Less than High School degree": "less than high school", 
+      "High school degree or GED": "high school", 
+      "Certificate or technical degree": "technical degree", 
+      "Associate degree": "associate",
+      "Some college but no degree (including currently enrolled in college)": "some college", 
+      "Bachelor's degree": "college", 
+      "Master's degree": "masters", 
+      "Professional degree (e.g. MBA, MD, JD)": "professional degree", 
+      "Doctoral Degree": "phd"
+    }
+  },
+  "I0A": {
+    "name": "has_income",
+    "values": "yes_no"
+  },
+  "I4A": {
+    "name": "income_amount",
+    "values": {
+      "0": 0, 
+      "$0 to $4,999": 2500,
+      "$5,000 to $14,999": 5000, 
+      "$15,000 to $24,999": 15000, 
+      "$25,000 to $39,999": 25000, 
+      "$40,000 to $49,999": 40000, 
+      "$50,000 to $74,999": 50000, 
+      "$75,000 to $99,999": 75000, 
+      "$100,000 to $149,999": 100000, 
+      "$150,000 to $199,999": 150000, 
+      "$200,000 or higher": 200000, 
+      "Refused": null
+    }
+  },
+  "I1": {
+    "name": "spends_more_than_income",
+    "values": {
+      "More than your income": true,
+      "The same as your income": false,
+      "Less than your income": false,
+      "Refused": null
+    }
+  },
+  "I9": {
+    "name": "income_volatility_level",
+    "values": {
+      "Roughly the same amount each month": 0,
+      "Roughly the same most months but some unusually high or low months during the year": 1,
+      "Often varies quite a bit from one month to the next": 2,
+      "Refused": null
+    }
+  },
+  "I12": {
+    "name": "struggles_because_of_income_dips",
+    "values": "yes_no"
+  }
+}
