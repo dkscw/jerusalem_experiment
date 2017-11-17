@@ -1,0 +1,467 @@
+variable,definition
+CaseID,Case ID CaseID is preserved across years for reinterviewed respondents and can serve as the unique identifier for merging 
+weight1b,Population weights: ReInterview respondents 
+weight2b,Population weights: ReInterview/Fresh respondents 
+weight3b,Population weights: All respondents 
+weight4b,Population weights: Fresh respondents 
+xsflag,Sample variable 
+L0_a,[My spouse or partner] Do each of the following types of people currently live with you in your household? 
+L0_b,[My child or children who are under age 18] Do each of the following types of people currently live with you in your household? 
+L0_c,[My adult child or children who are age 18 or older] Do each of the following type of people currently live with you in your household? 
+L0_d,[My parents] Do each of the following types of people currently live with you in your household? 
+L0_e,"[My extended family such as brothers, sisters or cousins'] Do each of the following types of people currently live with you in your household? "
+L0_f,[Roommate(s) who are not related to me] Do each of the following types of people currently live with you in your household? 
+L0_g,[Other individuals (Please specify)] Do each of the following types of people currently live with you in your household? 
+L0A,Which of the following best describes the adult children (who are age 18 or older) who live with you? 
+L1_a,[To save money] Are each of the following reasons why you live with these individuals? 
+L1_b,[To provide financial assistance to those living with me] Are each of the following reasons why you live with these individuals? 
+L1_c,"[To care for sick, disabled, or elderly family member or friend] Are each of the following reasons why you live with these individuals? "
+L1_d,[To receive assistance with child care] Are each of the following reasons why you live with these individuals? 
+L1_e,[Companionship / prefer living with others] Are each of the following reasons why you live with these individuals? 
+L1_f,[Other (Please specify)] Are each of the following reasons why you live with these individuals? 
+L2,Could you [and your spouse/and your partner] afford to live on your own in your current neighborhood if you had to? 
+L3,Would you [and your spouse/and your partner] prefer to live on your own if you could afford to? 
+B2,"Overall, which one of the following best describes how well you are managing financially these days? "
+B3,"Compared to 12 months ago, would you say that you (and your family living with you) are better off, the same, or worse off financially? "
+B6,"Think of your parents when they were your age. Would you say you (and your family living with you) are better, the same, or worse off financially than they were? "
+B6A,"Thinking about your family when you were growing up (under age 17), would you say your family during that time was generally pretty well off financially, about average, poor, or did it vary? "
+D1_a,[Employed for someone else] Do each of the following describe your employment situation in the past month? 
+D1_b,[Self-employed] Do each of the following describe your employment situation in the past month?v 
+D1_c,[Temporarily laid off] Do each of the following describe your employment situation in the past month? 
+D1_d,"[Not employed, but looking for a job] Do each of the following describe your employment situation in the past month? "
+D1_e,"[Not employed, and not looking for a job] Do each the following describe your employment situation in the past month? "
+D1_f,[Homemaker] Do each of the following describe your employment situation in the past month? 
+D1_g,[Student] Do each of the following describe your employment situation in the past month? 
+D1_h,[Disabled and not working] Do each of the following describe your employment situation in the past month? 
+D1_i,[Retired] Do each of  the following describe your employment situation in the past month? 
+D2,"In the past month, which one of the following do you consider to best describe your employment situation? "
+D3,"Think about the main job that you had in the past month. In this job, did you: "
+D3A,"Still thinking about your main job, do you normally start and end work around the same time each day that you work does it vary from week-to-week? "
+D3B,Approximately how far in advance does your employer usually tell you the hours that you will need to work on any given day? 
+D3C_a,"[Paid sick leave] Still thinking about your main job, does your employer offer you each of the following benefits (even if you do not personally use the benefit)? "
+D3C_b,"[Paid vacation/personal leave] Still thinking about your main job, does your  employer offer you each of the following benefits (even if you do not personally use the benefit)? "
+D3C_c,"[Maternity or paternity leave] Still thinking about your main job, does your employer offer you each of the following benefits (even if you do not personally use the benefit)? "
+D3C_d,"[Health insurance] Still thinking about your main job, does your employer offer you each of the following benefits (even if you do not personally use the benefit)? "
+D3C_e,"[Disability insurance] Still thinking about your main job, does your employer offer you each of the following benefits  (even if you do not personally use the benefit)? "
+D3C_f,"[Life insurance] Still thinking about your main job, does your employer offer you each of the following benefits (even if you do not personally use the benefit)? "
+D3C_g,"[Retirement benefits] Still thinking about your main job, does your employer offer you each of the following benefits (even if you do not personally use the benefit)? "
+D3C_h,"[Ability to work from home] Still thinking about your main job, does your employer offer you each of the following benefits (even if you do not personally use the benefit)?  "
+D3D,"Still thinking about your main job, how does your employer normally pay you for work? "
+D4_a,"[I had another full-time job] In addition to your main job, in the past month did you have any other paid jobs? "
+D4_b,"[I had another part-time job] In addition to your main job, in the past month did you have any other paid jobs? "
+D6_a,"[Asked for a raise or a promotion at work] In the past 12 months, have you done each of the following? "
+D6_b,"[Received a raise or a promotion at work] In the past 12 months, have you done each of the following? "
+D6_c,"[Applied for a new job] In the past 12 months, have you done each of the following? "
+D6_d,"[Started a new job] In the past 12 months, have you done each of the following? "
+D6_e,"[Voluntarily left a job] In the past 12 months, have you done each of the following? "
+D6_f,"[Gotten laid-off or fired from a job] In the past 12 months, have you done each of the following? "
+D7,"Thinking about the raise you received in the past 12 months, how did this raise compare to changes in your living expenses over the period? "
+D8_a,[Child-care responsibilities] How much do each of the following impact your ability to work for pay or work as much as you like? 
+D8_b,[Caretaking responsibilities for someone other than a child (such as a parent)] How much do each of the following impact your ability to work for pay or work as much as you like? 
+D8_c,[Health problems of my own] How much do each of the following impact your ability to work for pay or work as much as you like? 
+D8_d,[Difficulty arranging transportation to or from work] How much do each of the following impact your ability to work for pay or work as much as you like? 
+D8_e,[Employer?s restrictions for how many hours I work] How much do each of the following impact your ability to work for pay or work as much as you like? 
+D8_f,[Employer sets or schedules the times or shifts that I work] How much do each of the following impact your ability to work for pay or work as much as you like? 
+D5,Which one of the following best describes your [spouse's/partner's] current employment status? 
+D9A_a,"[Babysitting, child care services, dog walking, and/or house sitting] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9A_b,"[Disabled adult and/or elder care services] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9A_c,"[House cleaning, house painting, yard work, landscaping, and/or other property maintenance work) In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9A_d,"[Providing personal services to individuals, such as picking up their dry cleaning, helping people move, running errands, booking travel, etc.) In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9B_a,"[Completing online tasks through websites, such as Amazon Services, Mechanical Turk, Fiverr, Task Rabbit, or YouTube. Such tasks might include editing documents, reviewing resumes, writing songs, creating graphic desigins, etc.] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9B_b,"[Renting out property, such as your car, your place of residence, or other items you own, through websites, newspaper ads, flyers, etc.] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9B_c,"[Selling new/used goods, handcrafts, etc., on-line through eBay, Craigslist, or other websites] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9B_d,"[Other online paid activities (do not include taking GfK Surveys). Please specify.] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9C_a,"[Selling goods (such as food, handcrafts, etc.) or services at flea markets, swap meets, garage sales, mobile vans/trucls, stalls/kiosks, etc.] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9C_b,"[Selling used goods (such as clothes, wedding dresses, handcrafts, etc.) at consignment shops or thrift stores] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D9C_c,"[Any other paid activities that you have not yet mentioned (do not include taking Gfk surveys)] In the past month, have you been paid for each of the following occasional work actitvities or side jobs? "
+D10_a,"[To earn money as a primary source of income] In the past month, what are the reasons why you have engaged in occasional   paid work activities or side jobs?  "
+D10_b,"[To earn extra money on top of pay from a current job, retirement, pension, disability, or other regular source of income] In the past month, what are the reasons why you have engaged in occasional paid work activities or side jobs? "
+D10_c,"[To earn extra money to help family members] In the past month, what are the reasons why you have engaged in occasional paid work activities or side jobs? "
+D10_d,"[To maintain existing job-related skills] In the past month, what are the reasons why you have engaged in occasional paid work activities or side jobs? "
+D10_e,"[To acquire new job-related skills] In the past month, what are the reasons why you have engaged in occasional paid work activities or side jobs? "
+D10_f,"[To network/meet people] In the past month, what are the reasons why you have engaged in occasional paid work activities or side jobs? "
+D10_g,"[Just for fun (as a hobby)] In the past month, what are the reasons why you have engaged in occasional paid work activities or side jobs? "
+D10_h,"[Other (please specify)]  In the past month, what are the reasons why you have engaged in occasional paid work activities or side jobs? "
+D10_Refused,"[Refused] In the past month, what are the reasons why you have engaged in occasional paid work activities or side jobs? "
+D11,"In the past month, what is the main reason why you have engaged in occasional paid actitivites or side jobs? "
+D12_A,"How much time do you usually spend per month on occasional paid work activities or side jobs, other than your primary job? "
+D12_B,About how much of your monthly income do you [and your spouse/and your partner] get from paid work actitivites of side jobs? 
+D13,"Six months from now, do you expect to devote more, the same, or less time to occasional paid work actitivites or side jobs other than your main job compared to today? "
+D14,"To what extent have occasional paid work activities or side jobs helped you to offset any negative effects of unemployment, loss of working hours, loss of benefits, or frozen wages  in a formal job in the last year? "
+D15,"In the past 12 months, to what extent has the money earned from occasional paid work acitivites or side jobs been a significant source of income for you? "
+D16,"In the past 12 months, to what extent has the money earned from occasional paid work activities or side jobs been a regular/ significant source of income for you? "
+D17_a,"[Apprenticeship or internship] In the past month, did you do each of the following types of unpaid work  for someone else? "
+D17_b,"[Volunteer work] In the past month, did you do each of the following types of unpaid work for someone else? "
+D17_c,"[Bartering (Work done in exchange for an item or service of similar value)] In the past month, did you do each of the following types of unpaid work for someone else? "
+D17_d,"[Other (Please specify)] In the past month, did you do each of the following types of unpaid work for someone else? "
+D17B_a,[To improve the local community] Which of the following are reasons that you did unpaid work for someone else in the past month? 
+D17B_b,[To help others or give back to society] Which of the following are reasons that you did unpaid work for someone else in the past month? 
+D17B_c,[To maintain existing job-related skills] Which of the following are reasons that you did unpaid work for someone else in the past month? 
+D17B_d,[To acquire new job-related skills] Which of the following are reasons that you did unpaid work for someone else in the past month? 
+D17B_e,[To network/meet people] Which of the following are reasons that you did unpaid work for someone else in the past month? 
+D17B_f,[Just for fun (as a hobby)] Which of the following are reasons that you did unpaid work for someone else in the past month? 
+D17B_g,[Other (Please specify)] Which of the following are reasons that you did unpaid work for someone else in the past month? 
+GH1,Which one of the following best describes your housing arrangement where you currently live? 
+GH2,In what year did you [buy/start renting/move into] your current home? 
+R1_a,[It?s cheaper to rent than own a home] Please select all the reasons below for why you rent your home rather then own your home. 
+R1_b,[Owning a home is a bigger financial risk] Please select all the reasons below for why you rent your home rather then own your home. 
+R1_c,[It?s more convenient to rent (for example you can move easily)] Please select all the reasons below for why you rent your home rather then own your home. 
+R1_d,[I plan on moving in the near future] Please select all the reasons below for why you rent your home rather then own your home. 
+R1_e,[I can?t qualify for a mortgage to buy a home] Please select all the reasons below for why you rent your home rather then own your home. 
+R1_f,[I can?t afford the down payment to buy a home] Please select all the reasons below for why you rent your home rather then own your home. 
+R1_g,[I simply prefer to rent] Please select all the reasons below for why you rent your home rather then own your home. 
+R1_h,[I'm currently looking to buy a home] Please select all the reasons below for why you rent your home rather then own your home. 
+R1_i,[Other (Please specify)] Please select  all the reasons below for why you rent your home rather then own your home. 
+R1_Refused,[Refused] Please select all the reasons below for why you rent your home rather then own your home. 
+R4,Did you own your previous home that you moved from in [GH2 RESPONSE]? 
+R5A,"An eviction is when your landlord forces you to move when you don?t want to. Were you, or a person you were staying with, evicted from the home you moved from in [GH2 response]? "
+R5B_a,[Received an eviction notice] Did each of the following contribute to your moving from your previous home in [GH2 response]? 
+R5B_b,"[Your landlord told you, or a person you were staying with, to leave] Did each of the following contribute to your moving from your previous home in [GH2 response]? "
+R5B_c,"[You, or a person you were staying with, missed a rent payment and thought that if you didn't move you would be evicted] Did each of the following contribute to your moving from your previous home in [GH2 response]? "
+R5B_d,[The city condemned the property and forced you to leave] Did each of the following contribute to your moving from your previous home in [GH2 response]? 
+R5C_a,[Bank took possession of your home in foreclosure] Did each of the following contribute to your moving from your previous home in [GH2 response]? 
+R5C_b,[Received a notice from the bank that they planned to foreclose] Did each of the following contribute to your moving from your previous home in [GH2 response]? 
+R5C_c,"[Missed mortgage payments and thought that if you didn?t move, the bank would foreclose on your home] Did each of the following contribute to your moving from your previous home in [GH2 response]? "
+R5C_d,[The city condemned the property and forced you to leave] Did each of the following contribute to your moving from your previous home in [GH2 response]? 
+R5D_a,[Rent increased at previous home or apartment] Please select all of the reasons that you moved to your home in [GH2 response]? 
+R5D_b,[Landlord would not fix things at previous home or apartment] Please select all of the reasons that you moved to your home in [GH2 response]? 
+R5D_c,[To save money] Please select all of the reasons that you moved to your home in [GH2 response]? 
+R5D_d,[Better quality or larger home] Please select all of the reasons that you moved to your home in [GH2 response]? 
+R5D_e,[Closer to work or school] Please select all of the reasons that you moved to your home in [GH2 response]? 
+R5D_f,[Better quality neighborhood or schools] Please select all of the reasons that you moved to your home in [GH2 response]?  
+R5D_g,[Relocated to a new city] Please select all of the reasons that you moved to your home in [GH2 response]? 
+R5D_h,"[Change in family status (e.g. marriage, divorce, children)] Please select all of the reasons that you moved to your home in [GH2 response]? "
+R5D_i,[Other (Please Specify)] Please select all of the reasons that you moved to your home in [GH2 response]? 
+R5D_Refused,[Refused] Please select all of the reasons that you moved to your home in [GH2 response]? 
+R6_a,"[Documentation of employment or income] When you rented your current home, were each of the following part of the rental application process? "
+R6_b,"[Payment of a security deposit] When you rented your current home, were each of the following part of the rental application process? "
+R6_c,"[Payment of an application fee] When you rented your current home, were each of the following part of the rental application process? "
+R6_d,"[Request for references] When you rented your current home, were each of the following part of the rental application process? "
+R6_e,"[Request to run a credit check] When you rented your current home, were each of the following part of the rental application process? "
+R6_f,"[Request to run a criminal background check] When you rented your current home, were each of the following part of the  rental application process? "
+R7,"In the past 12 months, have you experienced any problems with your house or apartment that you felt need to be fixed, such as a leak or a broken appliance? "
+R8,Did you contact your landlord about the problem with your house or apartment that needed to be fixed? 
+R8A,"After you contacted your landlord about the problem with your house or apartment, how much difficult did you have getting them to fix the problem? "
+R8B,What is the main reason that you did you not contact your landlord about the problem with your house or apartment that needed to be fixed? 
+R9,Do you [and/or your spouse / and/or your partner] expect to purchase a home in the next 5 years? 
+R10_a,[Will have saved enough for a down-payment] Are each of the following reasons that you expect to buy a home in the next 5 years?  
+R10_b,[Will be more certain about job] Are each of the following reasons that you expect to buy a home in the next 5 years? 
+R10_c,[Will be more certain about location or where to live] Are each of the following reasons that you expect to buy a home in the next 5 years? 
+R10_d,[Will have a higher income] Are each of the following reasons that you expect to buy a home in the next 5 years? 
+R10_e,"[Change in family circumstances (e.g. marriage, divorce, children)'] Are each of the following reasons that you expect to buy a home in the next 5 years? "
+R10_f,[Other (Please specify)] Are each of the following reasons that you expect to buy a home in the next 5 years? 
+R3,About how much do you [and/or your spouse /and/or your partner] pay for rent each month? 
+H0_a,[It?s cheaper to own than rent a home] Please select all the reasons below for why your own home rather than rent. 
+H0_b,[Owning a home is a good financial investment] Please select all the reasons below for why your own home rather than rent. 
+H0_c,[Certainty about monthly payments] Please select all the reasons below for why your own home rather than rent. 
+H0_d,[Building equity with payments] Please select all the reasons below for why your own home rather than rent. 
+H0_e,[Don?t like to move] Please select all the reasons below for why your own home rather than rent. 
+H0_f,[Less rules / able to customize house] Please select all the reasons below for why your own home rather than rent. 
+H0_g,[Simply prefer to own] Please select all the reasons below for why your own home rather than rent. 
+H0_h,[Other (Please specify)] Please select all the reasons below for why your own home rather than rent. 
+H0_Refused,[Refused] Please select all the reasons below for why your own home rather than rent. 
+H6,Prior to purchasing your current home did you [or your spouse/or your partner] ever own another house? 
+H7_a,"[Proceeds from sale of previous home] In addition to your mortgage, please select all the sources below that you used to fund the home purchase when you bought your current home. "
+H7_b,"[Personal savings] In addition to your mortgage, please select all the sources below that you used to fund the home purchase when you bought your current home. "
+H7_c,"[Loan or gift from family/friends] In addition to your mortgage, please select all the sources below that you used to fund the home purchase when you bought your current home. "
+H7_d,"[Second mortgage] In addition to your mortgage, please select all the sources below that you used to fund the home purchase when you bought your current home. "
+H7_e,"[Financial assistance from a government program or non-profit organization] In  addition to your mortgage, please select all the sources below that you used to fund the home purchase when you bought your current home. "
+H7_f,"[None] In addition to your mortgage, please select all the sources below that you used to fund the home purchase when you bought your current home. "
+H7_g,"[Other (Please specify)] In addition to your mortgage, please select all the sources below that you used to fund the home purchase when you bought your current home. "
+H7_Refused,"[Refused] In addition to your mortgage, please select all the sources below that you used to fund the home purchase when you bought your current home. "
+M2,"In the past 12 months, have you [or your spouse/or your partner] missed two or more payment on your mortgage? "
+M4,About how much is your total monthly mortgage payment (i.e. the amount you send to the bank)? 
+BK1,"Do you [and/or your spouse / and/or your partner] currently have a checking, savings, or money market account? "
+BK2_a,"[used a money order] In the past 12  months, have you [and/or your spouse / and/or your partner] "
+BK2_b,"[used a check-cashing service] In the past 12 months, have you [and/or your spouse / and/or your partner] "
+BK2_c,"[used a tax refund anticipation loan] In the past 12 months, have you [and/or your spouse /and/or your partner] "
+BK2_d,"[used a pawn shop loan, a payday loan, an auto title loan, or a paycheck advance/ deposit advance] In the past 12 months, have you [and/or your spouse / and/or your partner] "
+BK2_e,"[sent money to a relative or friend (not a business) living outside of the U.S. using a service other than a bank] In the past 12 months, have you [and/or your spouse / and/or your partner] "
+BK5,Suppose that you were making a $10 purchase at a local store. How would you most commonly expect to pay for this purchase? 
+A6,"If you were to apply for a credit card today, how confident are you that your application would be approved? "
+A0,"In the last 12 months, have you [or your spouse/or your partner] applied for any credit? "
+A0A_a,[Mortgage to buy a new home] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_b,[Refinance of a home mortgage] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_c,[Home equity loan or line of credit] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_d,[Credit card] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_e,[Car/auto loan] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_f,[Student loan] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_g,[Personal general-purpose loan from a bank] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_h,[Personal loan from friends or family] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_i,[Other (Please specify)] Please select all of the types of credit below that you [or you spouse or partner] applied for in the past 12 months 
+A0A_Refused,[Refused] Please select all of the types of credit below that you [or you spouse or partner] applied  for in the past 12 months 
+A0B,Was there a time in the past 12 months that you [or your spouse/or your partner] desired credit but chose not to submit a credit application? 
+A1_a,"[You [or your spouse/or your partner] were turned down for credit] In the past 12 months, please tell us if each of the following has or has not happened to you [or your spouse or partner] "
+A1_b,"[You [or your spouse/or your partner] were approved for credit, but were not given as much credit as you applied for] In the past 12 months, please tell us if each of the following has or has not happened to you [or your spouse or partner] "
+A1_c,"[You [or your spouse/or your partner] put off applying for credit because you thought you might be turned down] In the past 12 months, please tell us if each of the following has or has not happened to you [or your spouse or partner] "
+A2,You indicated that you [or your spouse/or your partner] desired credit in the past 12 months but did not submit a credit application. Was this because you thought that you might be turned down or denied credit? 
+A3_a,"[Mortgage to buy a new home] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_b,"[Refinance of a home mortgage] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_c,"[Home equity loan or line of credit] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_d,"[Credit card] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_e,"[Car/auto loan] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_f,"[Student loan] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_g,"[Personal general-purpose loan from a bank] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_h,"[Personal loan from friends or family] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_i,"[Other] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+A3_Refused,"[Refused] In the past 12 months, which forms of credit that you applied for were you denied or offered less credit than requested "
+C1,"If you had to guess, do you think your current credit score (such as a FICO score) is "
+C2A,Do you have at least one credit card? 
+C3,Do you currently have any outstanding unpaid credit card debt? 
+C3A,"Do you [and your spouse/and your partner] currently have more, less, or about the same amount of credit card deby than you had 12 months ago? "
+C3B,"12 months ago, did you have any credit card debt that you have since paid off? "
+C4A,"In the past 12 months, how frequently have you carried an unpaid balance on one or more of your credit cards? "
+C4B,"In the past 12 months, how frequently have you paid only the minimum payment on one or more of your credit cards? "
+ED0,What is the highest level of school you have completed or the highest degree you have received? 
+ED0A,"Are you currently enrolled in any school, college, or other post-high school education program that will to a degree? "
+ED0B,What type of degree program are you currently enrolled in? 
+ED0C,"In the past 12 months, have you taken any classes towards a degree or completed any educational program? "
+ED1,Which one of the following broad categories best describes your [current/most recent] education program? 
+ED5,"Overall, how would you say the lifetime financial benefits of your [current/most recent] educational program compare to its financial costs? "
+ED6_a,"[Chosen a different field of study] Knowing what you know now about the benefits and costs of your education, if you could go back and make your education decisions again would have done each of these things: "
+ED6_b,"[Attended a different school] Knowing what you know now about the benefits and costs of your education, if you could go back and make your education decisions again would have done each of these things: "
+ED6_c,"[Completed less education] Knowing what you know now about the benefits and costs of your education,if you could go back and make your education decisions again would have done each of these things: "
+ED6_d,"[Completed more education] Knowing what you know now about the benefits and costs of your education, if you could go back and make your education decisions again would have done each of these things: "
+ED6_e,"[Chosen not to attend college] Knowing what you know now about the benefits and costs of your education, if you could go back and make your education decisions again would have done each of these things: "
+ED7A,In what state is the school that you received your located? 
+ED10,"Overall, how would you say the lifetime financial benefits of your [DOV_ED] program compare to its financial costs? "
+ED11_a,"[Chosen a different field of study] Knowing what you know now about the benefits and costs of your education, if you could go back and make decisions regarding your [DOV_ED] again, would you have done each of these things: "
+ED11_b,"[Attended a different school] Knowing what you know now about the benefits and costs of your education, if you could go back and make decisions regarding your [DOV_ED] again, would you have done each of these things: "
+ED11_c,"[Completed less education] Knowing what you know now about the benefits and costs of your education, if you could go back and make decisions regarding your [DOV_ED] again, would you have done each of these things: "
+ED11_d,"[Completed more education] Knowing what you know now about the benefits and costs of your education, if you could go back and make decisions regarding your [DOV_ED] again, would you have done each of these things: "
+ED11_e,"[Chosen not to attend college] Knowing what you know now about the benefits and costs of your education, if you could go back and make decisions regarding your [DOV_ED] again, would you have done each of these things: "
+ED12_a,[Parents] How important was the advice or opinion of each of the following types of people when your were deciding to attend college and what school to attend? 
+ED12_b,"[Siblings, aunts, uncles, or other relatives] How important was the advice or opinion of each of the following types of people when your were deciding to attend college and what school to attend? "
+ED12_c,[Friends] How important was the advice or opinion of each of the following types of people when your were deciding to attend college and what school to attend? 
+ED12_d,[High school teachers or counselors] How important was the advice or opinion of each of the following types of people when your were deciding to attend college and what school to attend? 
+ED12_e,[Faculty or representatives of a college] How important was the advice or opinion of each of the following types of people when your were deciding to attend college and what school to attend? 
+ED12_f,[Employer] How important was the advice or opinion of each of the following types of people when your were deciding to attend college and what school to attend? 
+ED12_g,[Religious leader] How important was the advice or opinion of each of the following types of people when your were deciding to attend  college and what school to attend? 
+ED12_h,[Other (Please specify)] How important was the advice or opinion of each of the following types of people when your were deciding to attend college and what school to attend? 
+ED13_a,[Too expensive] Which of the following are reasons why you did not attend college? 
+ED13_b,[Child care responsibilities] Which of the following are reasons why you did not attend college? 
+ED13_c,[Supported or cared for parents or siblings] Which of the following are reasons why you did not attend college? 
+ED13_d,[Needed to earn money] Which of the following are reasons why you did not attend college? 
+ED13_e,[Wanted to work] Which of the following are reasons why you did not attend college? 
+ED13_f,[Simply was not interested in college] Which of the following   are reasons why you did not attend college?  
+ED13_g,[Was not admitted] Which of the following are reasons why you did not attend college? 
+ED13_h,[Did not think benefits of attending college were worth the cost] Which of the following are reasons why you did not attend college? 
+ED13_i,[Other] Which of the following are reasons why you did not attend college? 
+ED13_Refused,[Refused] Which of the following are reasons why you did not attend college? 
+ED14_a,[Too expensive] Which of the following are reasons why you did not complete your college degree? 
+ED14_b,[Child care responsibilities] Which of the following are reasons why you did not complete your college degree? 
+ED14_c,[Supported or cared for parents or siblings] Which of the following are reasons why you did not complete your college degree? 
+ED14_d,[Needed to earn money] Which of the following are reasons why you did not complete your college degree? 
+ED14_e,[Wanted to work] Which of the following are reasons why you did not complete your college degree? 
+ED14_f,[Simply not interested in continuing in college] Which of the following are reasons why you did not complete your college degree? 
+ED14_g,[Did not think the benefits of continuing college were worth the cost] Which of the following are reasons why you did not   complete you college degree?  
+ED14_h,[Low grades] Which of the following are reasons why you did not complete your college degree? 
+ED14_i,[Other] Which of the following are reasons why you did not complete your college degree? 
+ED14_Refused,[Refused] Which of the following are reasons why you did not complete your college degree? 
+SL1,Do you currently have student loan debt or owe any money used to pay for your own education? 
+SL2_a,[Student Loan] Think about the money you currently owe for your own education. Is the money you owe for that education a: 
+SL2_b,[Home Equity Loan] Think about the money you currently owe for your own education. Is the money you owe for that education a: 
+SL2_c,[Credit Card] Think about the money you currently owe for your own education. Is the money you owe for that education a: 
+SL2_d,[Other Loan (Please specify)] Think about the money you currently owe for your own education. Is the money you owe for that education a: 
+SL3_a,"[Student Loan] Thinking specifically about the money that you owe for your own educartion, please tell us the amount that you currently owe on each of these loans "
+SL3_b,"[Home Equity Loan] Thinking specifically about the money that you owe for your own educartion, please tell us the amount that you currently owe on each of these loans "
+SL3_c,"[Credit Card] Thinking specifically about the money that you owe for your own educartion, please tell us the amount that you currently owe on each of these loans "
+SL3_TOTAL,"[Total] Thinking specifically about the money that you owe for your own educartion, please tell us the amount that you currently owe on each of these loans "
+SL4A,Does anyone else (such as a parent) help you pay these loans from your own education? 
+SL4,Approximately how much is the total monthly payment that you make on the loans from your education? 
+SL5,"Is one or more of the loans from your own education in deferment, forbearance, or being forgiven so you do not need to make payments right now? "
+SL6,Are you behind on payments or in collections for one or more of the loans from your own education? 
+SL7,Did you borrow money or take out any loans to pay for your own education that you have since repaid? 
+SL8_a,"[Certificate or technical training] Still thinking about the money you borrowed to pay for your own education, did you borrow money for each of the following educational programs (including any loans which you have completely repaid)? "
+SL8_b,"[Associate degree] Still thinking about the money you borrowed to pay for your own education, did you borrow money for each of the following educational programs (including any loans which you have completely repaid)? "
+SL8_c,"[Bachelor?s degree] Still thinking about the money you borrowed to pay for your own education, did you borrow money for each of the following educational programs (including any loans which you have completely repaid)? "
+SL8_d,"[Professional degree (e.g. MBA, MD, JD)] Still thinking about the money you borrowed to pay for your own education, did you borrow money for each of the following educational programs (including any loans which you have completely repaid)? "
+SL8_e,"[Master?s degree or Doctoral Degree] Still thinking about the money you borrowed to pay for your own education, did you borrow money for each of the following educational programs (including any loans which you have completely repaid)? "
+SL9,Did you complete the most recent educational program for which you borrowed money? 
+SL10,Do you currently owe any money used to pay for your [spouse's/partner's] education? 
+SL11,Do you currently owe any money used to pay for your child or grandchild?s education? 
+SL12_a,[Student Loan] Is the money you owe for your child or grandchild?s education a: 
+SL12_b,[Home Equity Loan] Is the money you owe for your child or grandchild?s education a: 
+SL12_c,[Credit Card] Is the money you owe for your child or grandchild?s education a: 
+SL12_d,[Other Loan (Please specify)] Is the money you owe for your child or grandchild?s education a: 
+K2_a,"[401(k), 403(b), Keogh, or other defined contribution plan through an employer or former employer] Do you currently have each of the following types of retirement savings or pension? "
+K2_b,[Pension with a defined benefit through an employer or former employer] Do you currently have each of the following types of retirement savings or pension? 
+K2_c,[IRA or Roth IRA] Do you currently have each of the following types of retirement savings or pension? 
+K2_d,[Savings outside a retirement account Do you currently have each of the following types of retirement savings or pension? 
+K2_e,[Ownership of real estate or land that you plan to sell or rent to generate income in retirement] Do you currently have each of the following types of retirement savings or pension? 
+K2_f,[Ownership of my business] Do you currently have each of the following types of retirement savings or pension? 
+K2_g,[Other retirement savings (Please specify)] Do you currently have each of the following types of retirement savings or pension? 
+DC1,"Does your employer offer a 401(k), 403(b), Thrift, or other defined contribution retirement plan, would you contribute to the plan? "
+DC3,"If your employer did offer a 401(k), 403(b), Thrift, or other defined contribution retirement plan, woudl you contribute to the plan? "
+DC4,How comfortable are you with making your own investment decisions in your retirement accounts? 
+K5A,"In the past 12 months, have you borrowed money from or cashed out (permanently withdrawn) money from any your retirement savings accounts? "
+K8A,You indicated previously that you are retired. At what age did you retire?  
+K9_a,[Poor health] How important were each of the following in your decision to retire at the age that you did? 
+K9_b,[Wanted to do other things] How important were each of the following in your decision to retire at the age that you did? 
+K9_c,[Didn?t like the work] How important were each of the following in your decision to retire at the age that you did? 
+K9_d,[Wanted to spend more time with family] How important were each of the following in your decision to retire at the age that you did? 
+K9_e,[Forced to retire or lack of available work] How important were each of the following in your decision to retire at the age that you did? 
+K10_a,[Social Security] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+K10_b,[I have a job] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+K10_c,[My spouse/partner has a job] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+K10_d,[Pension with a defined benefit from work] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+K10_e,"[401(k), 403(b), Keogh, or other defined contribution plan from work] Are each of the following sources of funds for you [and your spouse or partner] in retirement? "
+K10_f,[IRA or Roth IRA] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+K10_g,[Savings outside a retirement account] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+K10_h,[Income from real estate or the sale of real estate] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+K10_i,[Income from a business or the sale of a business] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+K10_j,"[Relying on children, grandchildren, or other family] Are each of the following sources of funds for you [and your spouse or partner] in retirement? "
+K10_k,[Other retirement savings] Are each of the following sources of funds for you [and your spouse or partner] in retirement? 
+I0_a,"[Wages or salaries] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0_b,"[Self-employment] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0_c,"[Freelance work or hobbies (do not include income from GfK)] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0_d,"[Interest, dividends, or rental income] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0_e,"[Social Security] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0_f,"[Supplemental Security (SSI)] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0_g,"[Unemployment income] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0_h,"[Pension income] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0_i,"[Any other income] In the past 12 months, did you [and/or your spouse / and/or partner] receive any income from the followign sources: "
+I0A,Did you [and/or your spouse / and/or your partner] receive any income from any source in the past 12 months? 
+I4A,"Which of the following categories best describes the total income that you received from all sources, before taxes and deductions, in the past 12 months? "
+I1,"In the past 12 months, would you say that your [and your spouse's/and your partner] total spending was: "
+I3_a,"[Spend out of your savings] In the past 12 months, did you [and your spouse/and your partner] do each of the following to cover spending that exceeded your income? "
+I3_b,"[Borrow / take-on debt] In the past 12 months, did you [and your spouse/and your partner] do each of the following to cover spending that exceeded your income? "
+I3_c,"[Rely on family or friends] In the past 12 months, did you [and your spouse/and your partner] do each of the following to cover spending that exceeded your income? "
+I3_d,"[Other (Please describe)] In the past 12 months, did you [and your spouse/and your partner] do each of the following to cover spending that exceeded your income? "
+I9,"In the past 12 months, which one of the following best describes how your income changes from month to month, if at all? "
+I10_a,[Bonuses] Please indicate whether each of the following is a reason that your income changed from month to month in the past year? 
+I10_b,[Commissions] Please indicate whether each of the following is a reason that your income changed from month to month in the past year? 
+I10_c,[Seasonal employment] Please indicate whether each of the following is a reason that your income changed from month to month in the past year? 
+I10_d,[Irregular work schedule (i.e. your work hours change from week to week)] Please indicate whether each of the following is a reason that your income changed from month to month in the past year? 
+I10_e,[Periods of unemployment] Please indicate whether each of the following is a reason that your income changed from month to month in the past year? 
+I10_f,[Investment Income] Please indicate whether each of the following is a reason that your income changed from month to month in the past year? 
+I10_g,[Other (Please specify)] Please indicate whether each of the following is a reason that your income changed from month to month in the past year? 
+I10_Refused,[Refused] Please indicate whether each of the following is a reason that your income changed from month to month in the past year? 
+I12,"In the past 12 months, did you [and your spouse/and your partner] have any months where you struggled to pay your bills because your income was lower than normal? "
+OL1_a,"[Groceries or personal care items] In the past 12 months, have you purchased each of the following types of goods online: "
+OL1_b,"[Clothing] In the past 12 months, have you purchased each of the following types of goods online: "
+OL1_c,"[Furniture or household goods] In the past 12 months, have you purchased each of the following types of goods online: "
+OL1_d,"[Electronics or appliances] In the past 12 months, have you purchased each of the following types of goods online: "
+OL1_e,"[Books, music, or DVDs] In the past 12 months, have you purchased each of the following types of goods online: "
+OL1_f,"[Travel-related items (plane tickets, hotel rooms)] In the past 12 months, have you purchased each of the following types of goods online: "
+OL1_g,"[Tickets to live events, like sporting events, concerts, or movies] In the past 12 months, have you purchased each of the following types of goods online: "
+OL1_h,"[Food delivery or carryout] In the past 12 months, have you purchased each of the following types of goods online: "
+OL1_i,"[Other (Please specify)] In the past 12 months, have you purchased each of the following types of goods online: "
+OL2_a,"[Groceries or personal care items] For each type of good that you purchased online in the past 12 months, what was the primary reason that you madethese purchases online rather than in a local store? "
+OL2_b,"[Clothing] For each type of good that you purchased online in the past 12 months, what was the primary reason that you made these purchases online rather than in a local store? "
+OL2_c,"[Furniture or household goods] For each type of good that you purchased online in the past 12 months, what was the primary reason that you made these purchases online rather than in a local store? "
+OL2_d,"[Electronics or appliances] For each type of good that you purchased online in the past 12 months, what was the primary reason that you made these purchases online rather than in a local store? "
+OL2_e,"[Books, music, or DVDs] For each type of good that you purchased online in the past 12 months, what was the primary reason that you made these purchases online rather than in a local store? "
+OL2_f,"[Travel-related items (plane tickets, hotel rooms)] For each type of good that you purchased online in the past 12 months, what was the primary reason that you made these purchases online rather than  in a local store? "
+OL2_g,"[Tickets to live events, like sporting events, concerts, or movies] For each type of good that you purchased online in the past 12 months, what was the primary reason that you made these purchases online rather than in a local store? "
+OL2_h,"[Food delivery or carryout] For each type of good that you purchased online in the past 12 months, what was the primary reason that you made these purchases online rather than in a local store? "
+OL2_i,"[OL1other] For each type of good that you purchased online in the past 12 months, what was the primary reason that you made these purchases online rather than in a local store? "
+OL3_a,"[Bought used, second-hand, or handmade goods on websites like Ebay, Craigslist, or Etsy] In the past 12 months have you done each of the following: "
+OL3_b,[Used a ride-hailing service like Uber or Lyft?] In the past 12 months have you done each of the following: 
+OL3_c,"[Stayed overnight in a private residence that you booked online using a service like  Airbnb, VRBO, or HomeAway] In the past 12 months have you done each of the following: "
+OL3_d,[Hired someone online to do a task for you remotely through a service such as Mechanical Turk or Fiverr] In the past 12 months have you done each of the following: 
+OL3_e,"[Hired someone online to to do an in-person task such as child-care or housecleanin gthrough a service such as Handy, Care.com, or TaskRabbit] In the past 12 months have you done each of the following: "
+OL3_f,"[Ordered delivery of prepared meals through services such as GrubHub, Caviar, Instacart, or UberEats] In the past 12 months have you done each of the following: "
+OL3_g,"[Bought streaming online media or entertainment content, through services such as Netflix or Amazon Prime] In the past 12 months have you done each of the following: "
+OL4_a,"[Read product reviews or get product information] In the past 12 months, have you used the internet to do each of the following, even if you did not make the purchase online? "
+OL4_b,"[Compare prices and the availability of products, either across online sites or listed for sale in brick-and-mortar stores? In the past 12 months, have you used the internet to do each of the following, even if you did not make the purchase online? "
+OL4_c,"[Interacted with a customer service representative for a product you purchased] In the past 12 months, have you used the internet to do each of the following, even if you did not make the purchase online? "
+OL4_d,"[Taken a class or educational program] In the past 12 months, have you used the internet to do each of the following, even if you did not make the purchase online? "
+OL4_e,"[Made reservations online, such as at a restaurant, salon, or doctor?s office] In the past 12 months, have you used the internet to do each of the following, even if you did not make the purchase online? "
+EF1,"Have you set aside emergency or rainy day funds that would cover your expenses for 3 months in case of sickness, job loss, economic downtunr, or other emergencies?  "
+EF2,"If you were to lose your main source of income (e.g. job, government benefits), could you cover your expense for 3 months by borrowing money, using savings, selling assets, or borrowing from friends and family? "
+EF3_a,"[Put it on my credit card and pay it off in full at the next statement] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF3_b,"[Put it on my credit card and pay it off over time] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF3_c,"[With the money currently in my checking/savings account or with cash] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF3_d,"[Using money from a bank loan or line of credit] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF3_e,"[By borrowing from a friend or family member] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF3_f,"[Using a payday loan, deposit advance, or overdraft] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF3_g,"[By selling something] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF3_h,"[I wouldn?t be able to pay for the expense right now] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF3_i,"[Other (Please specify):] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply  "
+EF3_Refused,"[Refused] Suppose that you have any emergency expense that costs $400. Based on your current financial situation, how would pay for this expense? If you would use more than one method to cover this expense, please select all that apply "
+EF5A,Do you expect to be able to pay all of your bills in full this month? 
+EF5B,How would a $400 emergency expense that you had to pay impact your ability to pay your other bills this month? 
+E1_a,"[Prescription medicine (including taking less medication than prescribed)] During the past 12 months, was there a time when you needed any of the following, but didn't get it because you couldn't afford it? "
+E1_b,"[To see a doctor] During the past 12 months, was there a time when you needed any of the following, but didn't get it because you couldn't afford it? "
+E1_c,"[Mental health care or counseling] During the past 12 months, was there a time when you needed any of the following, but didn't get it because you couldn't afford it? "
+E1_d,"[Dental care (including skipping check-ups or routine cleaning)] During the past 12 months, was there a time when you needed any of the following, but didn't get it because you couldn't afford it? "
+E1_e,"[To see a specialist (such as an OB/GYN, dermatologist, orthopedic surgeon, etc.] During the past 12 months, was there a time when you needed any of the following, but didn't get it because you couldn't afford it? "
+E1_f,"[Follow-up care (e.g. skipping physical therapy sessions recommended by a doctor) During the past 12 months, was there a time when you needed any of the following, but didn't get it because you couldn't afford it? "
+E2,"During the past 12 months, have you had any unexpected major medical expenses that you had to pay out of pocket (that were not completely paid for by insurance? "
+E2A,Approximately how much did you pay out of pocket for unexpected major medical expenses in the past 12 months? 
+E2B,Do you currently have an unpaid balance or owe any debt related to the unexpected major medical expenses that you had in the past 12 months? 
+E4_a,[Insurance through a current or former employer or union (of yourself or a family member)] Are you currently covered by any of the following types of health insurance or health coverage plans? 
+E4_b,[Insurance purchased directly from an insurance company (by yourself or a family member)] Are you currently covered by any of the following types of health insurance or health coverage plans? 
+E4_c,"[Medicare, for people 65 or older, or people with certain disabilities] Are you currently covered by any of the following types of health insurance or health coverage plans? "
+E4_d,"[Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability] Are you currently covered by any of the following types of health insurance or health coverage plans? "
+E4_e,[TRICARE or other military health care] Are you currently covered by any of the following types of health insurance or health coverage plans? 
+E4_f,[VA (including those who have ever used or enrolled for VA health care)] Are you currently covered by any of the following types of health insurance or health coverage plans? 
+E4_g,[Indian Health Service] Are you currently covered by any of the following types of health insurance or health coverage plans? 
+E4_h,[Insurance purchased through a health insurance exchange] Are you currently covered by any of  the following types of health insurance or health coverage plans? 
+E4_i,[Any other type of health insurance or health coverage plan] Are you currently covered by any of the following types of health insurance or health coverage plans? 
+E6_a,Do you have serious difficulty hearing or serious difficulty seeing even with glasses (including being blind or deaf) 
+E6_b,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions "
+E6_c,Do you have serious difficulty walking or climbing stairs? 
+E7,Do you currently have a health problem or disability which prevents you from working or which limits the kind or amount of work that you can do? 
+X2_a,[I lost a job] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_b,[I had my work hours and/or pay reduced] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_c,[My spouse/partner lost a job] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_d,[My spouse/partner had their work hours and/or pay reduced] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_e,[Told by landlord that I had to move out] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_f,[Received a foreclosure or eviction notice] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_g,[A business I owned had financial difficulty] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_h,[I had a significant health problem] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_i,[A family member had significant health problem] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_j,[Divorce] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X2_k,[Death of primary breadwinner] Have you and your family living with you experienced each of the following events in the past 12 months? 
+X3_a,[I lost a job] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_b,[I had my work hours and/or pay reduced] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_c,[My spouse/partner lost a job] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_d,[My spouse/partner had their work hours and/or pay reduced] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_e,[Told by landlord that I had to move out] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_f,[Received a foreclosure or eviction notice] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_g,[A business I owned had financial difficulty] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_h,[I had a significant health problem] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_i,[A family member had significant health problem] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_j,[Divorce] How much financial strain did each of the events that you experienced cause for you and your family? 
+X3_k,[Death of primary breadwinner] How much financial strain did each of the events that you experienced cause for you and your family? 
+CH1_a,"[Your family?s finances] When you were growing up (under age 17), how frequently did you worry about each of the following? "
+CH1_b,"[Having enough food to eat] When you were growing up (under age 17), how frequently did you worry about each of the following? "
+CH1_c,"[Crime and personal safety] When you were growing up (under age 17), how frequently did you worry about each of the following?  "
+CH1_d,"[Having a stable caregiver] When you were growing up (under age 17), how frequently did you worry about each of the following? "
+CH2,What is the highest level of education that your mother completed? 
+CH3,What is the highest level of education that your father completed? 
+IND2,IND2: Industry (detailed) in current or main job 
+ppcm0062,"Q18: Altogether, how many jobs do you have? "
+ppcm0160,Q26: Occupation (detailed) in current or main job 
+ppfs0596,Q22: What is the approximate total amount of your household's savings and investment? 
+ppfs0001,"Q1: When it comes to decisions regarding your household's financial activities, who makes them? "
+pph10001,"Q1: In general, would you say your physical health is. . .? "
+pph1date,Date member completed Health 1 survey 
+ppfsdate,Date member completed Financial Services survey 
+ppcmdate,Date member completed Core survey 
+ppage,Age 
+ppagecat,Age - 7 Categories 
+ppagect4,Age - 4 Categories 
+ppeduc,Education (Highest Degree Received) 
+ppeducat,Education (Categorical) 
+ppethm,Race / Ethnicity 
+ppgender,Gender 
+pphhhead,Household Head 
+pphhsize,Household Size 
+pphouse,Housing Type 
+ppincimp,Household Income 
+ppmarit,Marital Status 
+ppmsacat,MSA Status 
+ppreg,Region 4 - Based on State of Residence 
+ppreg9,Region 9 - Based on State of Residence 
+pprent,Ownership Status of Living Quarters 
+ppstaten,State 
+PPT01,Presence of Household Members - Children 0-1 
+PPT25,Presence of Household Members - Children 2-5 
+PPT612,Presence of Household Members - Children 6-12 
+PPT1317,Presence of Household Members - Children 13-17 
+PPT18OV,Presence of Household Members - Adults 18+ 
+ppwork,Current Employment Status 
+educ_prev_reported,Education level reported in 2014 and 2015 

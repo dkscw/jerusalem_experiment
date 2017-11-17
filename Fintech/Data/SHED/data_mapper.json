@@ -1,6 +1,121 @@
 {
+  "CaseID": {
+    "name": "case_id",
+    "values": null
+  },
+  "weight3b": {
+    "name": "weight",
+    "values": "numeric"
+  },
+  "ppage": {
+    "name": "age",
+    "values": "numeric"
+  },
+  "ppgender": {
+    "name": "is_female",
+    "values": {
+      "Female": true,
+      "Male": false
+    }
+  },
+  "ppethm": {
+    "name": "race",
+    "values": {
+      "White, Non-Hispanic": "white",
+      "Hispanic": "hispanic",
+      "Black, Non-Hispanic": "black",
+      "Other, Non-Hispanic": "other",
+      "2+ Races, Non-Hispanic": "other"
+    }
+  },
+  "pphhsize": {
+    "name": "household_size",
+    "values": "numeric"
+  },
+  "ppeducat": {
+    "name": "education",
+    "values": {
+      "Less than high school": "less than high school",
+      "High school": "high school",
+      "Some college": "some college",
+      "Bachelor's degree or higher": "college or higher"
+    }
+  },
+  "ppmsacat": {
+    "name": "lives_in_metro_area",
+    "values": {
+      "Metro": true, 
+      "Non-Metro": false
+    }
+  },
+  "ppstaten": {
+    "name": "state",
+    "values": null
+  },
+  "ppreg": {
+    "name": "region",
+    "values": {
+      "South": "south",
+      "Midwest": "midwest",
+      "West": "west",
+      "Northeast": "northeast"
+    }
+  },
+  "ppincimp": {
+    "name": "household_income",
+    "values": {
+      "Less than $5,000": 0,
+      "$5,000 to $7,499": 5000,
+      "$7,500 to $9,999": 7500,
+      "$10,000 to $12,499": 10000,
+      "$12,500 to $14,999": 12500,
+      "$15,000 to $19,999": 15000,
+      "$20,000 to $24,999": 20000,
+      "$25,000 to $29,999": 25000,
+      "$30,000 to $34,999": 30000,
+      "$35,000 to $39,999": 35000,
+      "$40,000 to $49,999": 40000,
+      "$50,000 to $59,999": 50000,
+      "$60,000 to $74,999": 60000,
+      "$75,000 to $84,999": 75000,
+      "$85,000 to $99,999": 85000,
+      "$100,000 to $124,999": 100000,
+      "$125,000 to $149,999": 125000,
+      "$150,000 to $174,999": 150000,
+      "$175,000 to $199,999": 175000,
+      "$200,000 to $249,999": 200000,
+      "$250,000 or more": 250000
+    }
+  },
+  "ppfs0596": {
+    "name": "total_savings",
+    "values": {
+      "Under $5,000": 0,
+      "$5,000 - $9,999": 5000,
+      "$10,000 - $24,999": 10000,
+      "$25,000 - $34,999": 25000,
+      "$35,000 - $49,999": 35000,
+      "$50,000 - $74,999": 50000,
+      "$75,000 - $99,999": 75000,
+      "$100,000 - $249,999": 100000,
+      "$250,000 - $499,999": 250000,
+      "$500,000 - $999,999": 500000,
+      "$1,000,000 or more": 1000000,
+      "Not sure": null,
+      "Refused": null,
+      "Not asked": null
+    }
+  },
+  "pprent": {
+    "name": "is_homeowner",
+    "values": {
+      "Owned or being bought by you or someone in your household": true, 
+      "Rented for cash": false,
+      "Occupied without payment of cash rent": false
+    }
+  },
   "L0": {
-    "prefix": "living_in_household",
+    "prefix": "household_member",
     "columns": [
       "spouse",
       "children",
@@ -174,8 +289,8 @@
     "values": {
       "Not confident": 1,
       "Somewhat confident": 2,
-      "Very confident": 3,   
-      "Don't know": null,
+      "Very confident": 3,
+      "Don’t know": null, 
       "Refused": null
     }
   },
@@ -187,7 +302,7 @@
       "Good": 3,
       "Very good": 4,
       "Excellent": 5,
-      "Don't know my score or how to rate it": null,
+      "Don’t know my score or how to rate it": null,
       "Refused": null
     }
   },
@@ -225,7 +340,7 @@
   "C4B": {
     "name": "credit_card_minimum_payment_frequency",
     "values": {
-      "Never carried an unpaid balance (always pay in full)": 0, 
+      "Never": 0, 
       "Once": 1, 
       "Some of the time": 2, 
       "Most or all of the time": 3,      
@@ -233,6 +348,7 @@
     }
   },
   "ED0": {
+    "ignore": true,
     "name": "education_level",
     "values": {
       "Less than High School degree": "less than high school", 
@@ -240,8 +356,8 @@
       "Certificate or technical degree": "technical degree", 
       "Associate degree": "associate",
       "Some college but no degree (including currently enrolled in college)": "some college", 
-      "Bachelor's degree": "college", 
-      "Master's degree": "masters", 
+      "Bachelor’s degree": "college", 
+      "Master’s degree": "masters", 
       "Professional degree (e.g. MBA, MD, JD)": "professional degree", 
       "Doctoral Degree": "phd"
     }
@@ -251,6 +367,7 @@
     "values": "yes_no"
   },
   "I4A": {
+    "ignore": true,
     "name": "income_amount",
     "values": {
       "0": 0, 
@@ -280,7 +397,7 @@
     "name": "income_volatility_level",
     "values": {
       "Roughly the same amount each month": 0,
-      "Roughly the same most months but some unusually high or low months during the year": 1,
+      "Roughly the same most months, but some unusually high or low months during the year": 1,
       "Often varies quite a bit from one month to the next": 2,
       "Refused": null
     }
